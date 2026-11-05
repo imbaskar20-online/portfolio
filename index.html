@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BASKAR | Cloud Engineer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080f1f;
+    color: white;
+    line-height: 1.7;
+}
+
+header {
+    background: #111c32;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #38bdf8;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #080f1f, #172554);
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #cbd5e1;
+    font-size: 19px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section {
+    padding: 65px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #38bdf8;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #172033;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    border: 1px solid #263852;
+}
+
+.card p {
+    color: #cbd5e1;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #172033;
+    border: 1px solid #0284c7;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+
+.contact a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    background: #111c32;
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2 class="logo">BASKAR.</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hello, I'm <span>Baskar</span></h1>
+    <p>Aspiring Cloud Engineer | AWS & DevOps Enthusiast</p> 
+    <img src="My-photo.jpg" width="250" alt="My Profile Photo">
+    <p>Building in the Cloud ☁️</p>
+    <a href="#about" class="btn">Explore My Portfolio</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a Computer Science graduate and MBA student
+            passionate about Cloud Computing and DevOps.
+            I enjoy learning new technologies and building
+            real-world cloud projects using AWS.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>AWS</span>
+        <span>Linux</span>
+        <span>EC2</span>
+        <span>S3</span>
+        <span>IAM</span>
+        <span>Apache</span>
+        <span>HTML</span>
+        <span>Git</span>
+        <span>DevOps</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+        <h3>AWS Portfolio Website</h3>
+        <p>
+            Deployed a personal portfolio website using
+            Amazon EC2 and Apache. Integrated Amazon S3
+            and IAM for secure cloud storage access.
+        </p>
+    </div>
+    <div class="card">
+        <h3>College Notice Board System</h3>
+        <p>
+            Developed a billing management system using
+            HTML, PHP and MySQL.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>+91 8946082900</h2>
+    <div class="card">
+        <p>Email: im.baskar20@gmail.com</p>
+        <p>Location: Tamil Nadu, India</p>
+        <p>LinkedIn: <a href="#">Im.baskar20https://www.linkedin.com/in/baskar-d-698968420</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Baskar | Built with ❤️ and AWS Cloud</p>
+</footer>
+
+</body>
+</html>
